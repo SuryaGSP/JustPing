@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surya.smslisten.MainActivity">
+
+
+    <Button
+        android:id="@+id/access"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/change"
+        android:text="My Accessible Contacts"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ChangeCode"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="202dp" />
+    <Button
+        android:id="@+id/sendcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Give access Code"
+        android:layout_below="@+id/access"/>
+
+    <Button
+        android:id="@+id/deleteacccess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendcode"
+        android:layout_centerHorizontal="true"
+        android:text="Revoke access" />
+    <Button
+        android:id="@+id/pendingcccess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteacccess"
+        android:layout_centerHorizontal="true"
+        android:text="Pending Requests" />
+
+
+</RelativeLayout>
